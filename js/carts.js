@@ -34,8 +34,8 @@ function drawCartProducts(products){
             
 
 
-      <div class="card col-12 col-sm-12 col-md-6 col-lg-4  mx-3 mb-4 products" style="max-width: 550px;">
-  <div class="row p-1 ">
+      <div class="card col-12 col-md-6 ms-3 mt-3 mb-4 products" style="max-width: 550px;">
+  <div class="row p-1  ">
     <div class="col-md-4  d-flex justify-content-center align-items-center ">
       <img src="${item.imageURl}" class="card-img product-img-cart">
     </div>
