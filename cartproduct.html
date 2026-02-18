@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+ 
+    <header>
+       
+            <nav class="navbar bg-body-tertiary d-flex flex-nowrap flex-md-nowrap align-items-center justify-content-between">
+  <div class="container-fluid" style="max-height: 80px;">
+
+    <!-- اللوجو -->
+      
+    <a class="navbar-brand "  href="index.html">
+      <img src="images/ce59eddc-3dab-4e2d-ac6a-d13e148e161c.png" style="width: 280px; height: 70px;">
+    </a>
+
+  
+    <!-- اللينكات + اليوزر + السلة -->
+    <div class="navbar-body d-flex align-items-center justify-content-center align-content-center"style=" right:10% ">
+
+      <div id="links">
+        <a href="login.html" class="btn btn-outline-primary">login</a>
+        <a href="register.html" class="btn btn-outline-success mx-3">Register</a>
+      </div>
+
+      <div id="UserInfo" style="display:none;" class="d-flex align-items-center position-relative ">
+
+        <a id="user" class=""></a>
+
+        <div class="shopping-cart position-relative " ; >
+          <i class="fa fa-shopping-cart fs-4 cart red" id="cart" ></i>
+          
+
+          
+        </div>
+
+      </div>
+
+      <a href="#" class="btn btn-outline-danger ms-3 flex-nowrap" id="logoutbutn" style="display:none;">log out</a>
+
+    </div>
+  </div>
+</nav>
+
+    </header>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+  <section >
+  <div class="container mt-5  justify-content-center">
+    <div class="row d-flex justify-content-center" id="productsContainer">
+    </div>
+   
+  </div>
+   <div class="totalprice  d-flex justify-content-center align-items-center fs-3 fw-600 mt-5   "style="border-bottom:1px solid rgb(30, 30, 30);  line-height:2; font-family:Arial, Helvetica, sans-serif;">
+      Total Price: $ <span class="totalprice-span"></span>
+    </div>
+</section>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<section>
+  <div class=" mt-5  p-5 " >
+    <h2 class="text-center fs-1 " style="border-bottom:3px solid rgb(30, 30, 30); width:290px; margin: auto; line-height: 2; font-family:Arial, Helvetica, sans-serif; font-style: italic;" >Favirote Items</h2>
+    <br><br>
+    <div class="d-flex justify-content-center align-content-center mx-auto " id="favoriteContainer" style="margin:auto 170px !important;">
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+  
+    <script src="js/carts.js"></script>
+    
+    <script src="js/user.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
