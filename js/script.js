@@ -148,7 +148,7 @@ function drawItem(arr = products) {
     let isInCart = addItem.find(cartItem => cartItem.title === item.title);
     let isFavorite = favorites.find(fav => fav.title === item.title);
     return `
-         <div class="col-12 col-sm-6 col-md-4  d-flex justify-content-center mb-4 align-items-center">
+         <div class="col-12 col-sm-12 col-md-4   d-flex mt-4  align-items-center">
             <div class="card h-100 products w-100   " style=" text-align:left;">
           <img src="${item.imageURl}" class="card-img-top product-img "  style="object-fit: cover; height: 200px;">
           <div class="card-body mx-auto mt-2">

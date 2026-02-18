@@ -92,6 +92,8 @@ form input{
 #logoutbutn{
     /* top: -10% !important; */
     margin:0 20px !important;
+    flex-wrap: nowrap !important;
+    font-size: 16px !important;
 }
 .shopping-cart{
     position: relative;
@@ -224,20 +226,11 @@ input, select {
 
 
 .products {
-  max-width: 310px;
+  /* max-width: 310px; */
   width: 100%;
   transition: 0.3s;
 }
-@media (max-width: 576px){
-  .products{
-    max-width: 100%;
-  }
-  .carts-product{
-    transform: scale(.8);
-    top:0;
-   left: 2px;
-  }
-}
+
 
 .cartitemcount .cart-counter .decrease,.cartitemcount .cart-counter .increase{
     padding: 4px !important;
@@ -266,7 +259,10 @@ input, select {
 
 
 @media (max-width: 576px){
-    .card.products{
+    /* #productsContainer {
+       margin: 0px;
+    } */
+    .card .products{
         max-width: 100%;
     }
     .product-img{
@@ -347,7 +343,12 @@ input, select {
   margin-bottom: 5px;
 }
 
-
+@media (min-width: 768px){
+   
+    #productsContainer {
+       margin: 40px 90px !important;
+    }
+}
 /* Responsive */
 @media (max-width: 768px){
     main .container{
@@ -365,6 +366,9 @@ input, select {
     }
     .product-img{
         height: 180px;
+    }
+    #productsContainer {
+       margin: 20px 10px !important;
     }
 }
 
@@ -406,10 +410,11 @@ input, select {
         height: 70px;
     }
     .numcart{
-        width: 16px;
-        height: 16px;
+        width: 14px;
+        height: 14px;
         font-size: 8px;
         line-height: 16px;
+        text-align: center;
     }
 }
 
